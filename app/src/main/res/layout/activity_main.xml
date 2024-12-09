@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ced8ea">
+
+    <!-- Título do Quiz -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Funny Quiz"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#37474F"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <!-- Descrição do Quiz -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teste seus conhecimentos com perguntas desafiadoras!"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="#3d3d56"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botão para iniciar o Quiz -->
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Iniciar Quiz"
+        android:textSize="18sp"
+        android:backgroundTint="#009688"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="40dp"
+        android:elevation="4dp" />
+</RelativeLayout>
